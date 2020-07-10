@@ -1,0 +1,49 @@
+Release 14.6 - xst P.68d (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/csmajs/wbi002/cs161l_lab5/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/csmajs/wbi002/cs161l_lab5/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sign_ext.v" in library work
+Compiling verilog file "mux_2_1.v" in library work
+Module <sign_ext> compiled
+Compiling verilog file "cpu_registers.v" in library work
+Module <mux_2_1> compiled
+Compiling verilog file "cpumemory.v" in library work
+WARNING:HDLCompilers:38 - "cpumemory.v" line 6 Macro 'MAX_REG' redefined
+Module <cpu_registers> compiled
+Compiling verilog file "alu.v" in library work
+Module <cpumemory> compiled
+Compiling verilog file "datapath.v" in library work
+Module <alu> compiled
+Module <cs161_datapath> compiled
+ERROR:HDLCompilers:247 - "datapath.v" line 79 Reference to vector wire 'current_prog_count' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "datapath.v" line 79 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "datapath.v" line 153 Reference to vector wire 'current_prog_count' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:106 - "datapath.v" line 153 Illegal left hand side of nonblocking assignment
+Analysis of file <"cs161_datapath.prj"> failed.
+--> 
+
+
+Total memory usage is 570392 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

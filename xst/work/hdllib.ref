@@ -1,0 +1,9 @@
+MO cs161_datapath NULL datapath.v vlg50/cs161__datapath.bin 1582319901
+MO sign_ext NULL sign_ext.v vlg55/sign__ext.bin 1582319901
+MO mux_2_1 NULL mux_2_1.v vlg57/mux__2__1.bin 1582319901
+MO alu_control NULL alu_control.v vlg5E/alu__control.bin 1582315968
+MO cpu_registers NULL cpu_registers.v vlg0B/cpu__registers.bin 1582319901
+MO cs161_processor NULL processor.v vlg41/cs161__processor.bin 1582315968
+MO control_unit NULL "../Student resources/wbi002_cs161l_lab3/control_unit.v" vlg64/control__unit.bin 1582315968
+MO cpumemory NULL cpumemory.v vlg39/cpumemory.bin 1582319901
+MO alu NULL alu.v vlg0A/alu.bin 1582319901

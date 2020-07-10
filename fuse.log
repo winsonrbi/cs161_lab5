@@ -1,0 +1,50 @@
+Running: /opt/Xilinx/14.6/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/csmajs/wbi002/cs161l_lab5/cs161_processor_testbench_isim_beh.exe" -prj "/home/csmajs/wbi002/cs161l_lab5/cs161_processor_testbench_beh.prj" "work.cs161_processor_testbench" "work.glbl" 
+ISim P.68d (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab5/sign_ext.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab5/mux_2_1.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab5/cpu_registers.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab5/cpumemory.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab5/alu.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab5/datapath.v" into library work
+WARNING:HDLCompiler:329 - "/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 80: Target <current_pc_plus_four> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 81: Target <pc_alu_result_reg> of concurrent assignment or output port connection should be a net type.
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab5/control_unit.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab5/alu_control.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab5/processor.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab5/processor_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/csmajs/wbi002/cs161l_lab5/processor.v" Line 52: Size mismatch in connection of port <alu_op>. Formal port size is 2-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "/home/csmajs/wbi002/cs161l_lab5/processor.v" Line 60: Size mismatch in connection of port <alu_op>. Formal port size is 2-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:329 - "/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 80: Target <current_pc_plus_four> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 81: Target <pc_alu_result_reg> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:189 - "/home/csmajs/wbi002/cs161l_lab5/processor.v" Line 75: Size mismatch in connection of port <alu_op>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 87: Size mismatch in connection of port <channel_b_in>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 89: Size mismatch in connection of port <zero_out>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 115: Size mismatch in connection of port <datain1>. Formal port size is 32-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 116: Size mismatch in connection of port <datain2>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 117: Size mismatch in connection of port <data_out>. Formal port size is 32-bit while actual signal size is 5-bit.
+Completed static elaboration
+Fuse Memory Usage: 94764 KB
+Fuse CPU Usage: 1030 ms
+Compiling module control_unit
+Compiling module alu_control
+Compiling module alu
+Compiling module cpumemory
+Compiling module cpu_registers
+Compiling module mux_2_1
+Compiling module sign_ext
+Compiling module cs161_datapath
+Compiling module cs161_processor
+Compiling module cs161_processor_testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 Verilog Units
+Built simulation executable /home/csmajs/wbi002/cs161l_lab5/cs161_processor_testbench_isim_beh.exe
+Fuse Memory Usage: 1179228 KB
+Fuse CPU Usage: 1030 ms
+GCC CPU Usage: 140 ms

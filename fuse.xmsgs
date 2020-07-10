@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 80: Target &lt;<arg fmt="%s" index="1">current_pc_plus_four</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 81: Target &lt;<arg fmt="%s" index="1">pc_alu_result_reg</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/processor.v" Line 52: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">alu_op</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/processor.v" Line 60: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">alu_op</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 80: Target &lt;<arg fmt="%s" index="1">current_pc_plus_four</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 81: Target &lt;<arg fmt="%s" index="1">pc_alu_result_reg</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/processor.v" Line 75: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">alu_op</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 87: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">channel_b_in</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 89: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">zero_out</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 115: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">datain1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 116: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">datain2</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/csmajs/wbi002/cs161l_lab5/datapath.v" Line 117: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">data_out</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+</messages>
+

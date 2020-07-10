@@ -1,0 +1,14 @@
+Printing stacktrace...
+
+[0] cs161_processor_testbench_isim_beh.exe() [0x40317c]
+[1] /opt/Xilinx/14.6/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::initProcesses(HSimVector<HSimBaseProcess*>*)+0x7a) [0x7f792e28676a]
+[2] /opt/Xilinx/14.6/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::init()+0x14c) [0x7f792e28806c]
+[3] /opt/Xilinx/14.6/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::spsimInternal(long long)+0x2c) [0x7f792e28883c]
+[4] /opt/Xilinx/14.6/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::spsim(long long)+0xcd) [0x7f792e2889fd]
+[5] /opt/Xilinx/14.6/ISE_DS/ISE/./lib/lin64/libhsimengine.so(ISimEngine::SimulationThread::runCommand()+0x9f) [0x7f792e2d0bbf]
+[6] /opt/Xilinx/14.6/ISE_DS/ISE/./lib/lin64/libhsimengine.so(ISimEngine::SimulationThread::loop()+0x91) [0x7f792e2d1b11]
+[7] /opt/Xilinx/14.6/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimSimCtl::runTcl(HSimConfigDecl*, HSimEntyBlk*, int, char**)+0x25c) [0x7f792e2cc43c]
+[8] cs161_processor_testbench_isim_beh.exe(main+0xb6) [0x400ed3]
+[9] /lib64/libc.so.6(__libc_start_main+0xf5) [0x7f792dd87505]
+[10] cs161_processor_testbench_isim_beh.exe() [0x400d59]
+Done
